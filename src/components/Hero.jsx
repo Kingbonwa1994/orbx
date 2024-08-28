@@ -36,8 +36,8 @@ const Hero = () => {
             </span>
           </h1>
           <p className="body-1 max-w-3xl mx-auto mb-6 text-n-2 lg:mb-8">
-            Unleash the power of AI within Brainwave. Upgrade your productivity
-            with Brainwave, the open AI chat app.
+           Transform Your Digital Presence with OrbX.
+           Harness AI-Powered Web and Mobile Apps for a Future-Ready Experience
           </p>
           <Button href="/pricing" white>
             Get started

@@ -90,12 +90,11 @@ export const brainwaveServicesIcons = [
   chromecast,
   sliders04,
 ];
-
 export const roadmap = [
   {
     id: "0",
-    title: "Voice recognition",
-    text: "Enable the chatbot to understand and respond to voice commands, making it easier for users to interact with the app hands-free.",
+    title: "Website Redesigns",
+    text: "Revamp existing websites with modern design practices to enhance user experience and boost engagement.",
     date: "May 2023",
     status: "done",
     imageUrl: roadmap1,
@@ -103,24 +102,24 @@ export const roadmap = [
   },
   {
     id: "1",
-    title: "Gamification",
-    text: "Add game-like elements, such as badges or leaderboards, to incentivize users to engage with the chatbot more frequently.",
+    title: "Custom Software Solutions",
+    text: "Develop tailored software solutions to meet specific business needs, ensuring efficiency and scalability.",
     date: "May 2023",
     status: "progress",
     imageUrl: roadmap2,
   },
   {
     id: "2",
-    title: "Chatbot customization",
-    text: "Allow users to customize the chatbot's appearance and behavior, making it more engaging and fun to interact with.",
+    title: "E-commerce Platform Development",
+    text: "Build robust e-commerce platforms with seamless payment integrations and user-friendly interfaces.",
     date: "May 2023",
     status: "done",
     imageUrl: roadmap3,
   },
   {
     id: "3",
-    title: "Integration with APIs",
-    text: "Allow the chatbot to access external data sources, such as weather APIs or news APIs, to provide more relevant recommendations.",
+    title: "API Integrations",
+    text: "Implement and integrate third-party APIs to enhance functionality and data accessibility within client applications.",
     date: "May 2023",
     status: "progress",
     imageUrl: roadmap4,
@@ -128,23 +127,26 @@ export const roadmap = [
 ];
 
 export const collabText =
-  "With smart automation and top-notch security, it's the perfect solution for teams looking to work smarter.";
+  "Elevate your team's efficiency with bespoke digital solutions and top-tier security designed for seamless collaboration.";
 
 export const collabContent = [
   {
     id: "0",
-    title: "Seamless Integration",
+    title: "Seamless Collaboration",
     text: collabText,
   },
   {
     id: "1",
-    title: "Smart Automation",
+    title: "Custom Automation",
+    text: "Streamline your processes with tailored automation that meets your specific needs.",
   },
   {
     id: "2",
-    title: "Top-notch Security",
+    title: "Uncompromised Security",
+    text: "Protect your projects with industry-leading security, ensuring your data is always safe.",
   },
 ];
+
 
 export const collabApps = [
   {
@@ -209,51 +211,56 @@ export const pricing = [
   {
     id: "0",
     title: "Basic",
-    description: "AI chatbot, personalized recommendations",
+    description: "Essential web development services, foundational support",
     price: "0",
     features: [
-      "An AI chatbot that can understand your queries",
-      "Personalized recommendations based on your preferences",
-      "Ability to explore the app and its features without any cost",
+      "Responsive website design and development",
+      "Basic SEO optimization",
+      "Email support for any inquiries or issues",
     ],
   },
   {
     id: "1",
-    title: "Premium",
-    description: "Advanced AI chatbot, priority support, analytics dashboard",
+    title: "Professional",
+    description: "Advanced web development, branding, and strategy",
     price: "9.99",
     features: [
-      "An advanced AI chatbot that can understand complex queries",
-      "An analytics dashboard to track your conversations",
-      "Priority support to solve issues quickly",
+      "Custom website design tailored to your brand",
+      "Comprehensive SEO and analytics integration",
+      "Ongoing support and updates",
+      "Branding consultation and strategy development",
     ],
   },
   {
     id: "2",
     title: "Enterprise",
-    description: "Custom AI chatbot, advanced analytics, dedicated account",
+    description: "Full-service digital solutions, dedicated account management",
     price: null,
     features: [
-      "An AI chatbot that can understand your queries",
-      "Personalized recommendations based on your preferences",
-      "Ability to explore the app and its features without any cost",
+      "End-to-end web and software development",
+      "Custom integrations with third-party services",
+      "Dedicated account manager for personalized service",
+      "Advanced analytics and reporting",
+      "Ongoing digital marketing and SEO strategies",
     ],
   },
 ];
 
+
+
 export const benefits = [
   {
     id: "0",
-    title: "Ask anything",
-    text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
+    title: "Innovative Solutions",
+    text: "Deliver cutting-edge software solutions tailored to your business needs.",
     backgroundUrl: "./src/assets/benefits/card-1.svg",
     iconUrl: benefitIcon1,
     imageUrl: benefitImage2,
   },
   {
     id: "1",
-    title: "Improve everyday",
-    text: "The app uses natural language processing to understand user queries and provide accurate and relevant responses.",
+    title: "Continuous Improvement",
+    text: "We focus on enhancing your software continually for optimal performance.",
     backgroundUrl: "./src/assets/benefits/card-2.svg",
     iconUrl: benefitIcon2,
     imageUrl: benefitImage2,
@@ -261,16 +268,16 @@ export const benefits = [
   },
   {
     id: "2",
-    title: "Connect everywhere",
-    text: "Connect with the AI chatbot from anywhere, on any device, making it more accessible and convenient.",
+    title: "Global Connectivity",
+    text: "Collaborate seamlessly with our team from anywhere, on any device.",
     backgroundUrl: "./src/assets/benefits/card-3.svg",
     iconUrl: benefitIcon3,
     imageUrl: benefitImage2,
   },
   {
     id: "3",
-    title: "Fast responding",
-    text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
+    title: "Rapid Development",
+    text: "Accelerate your project timeline with our fast and efficient development process.",
     backgroundUrl: "./src/assets/benefits/card-4.svg",
     iconUrl: benefitIcon4,
     imageUrl: benefitImage2,
@@ -278,40 +285,41 @@ export const benefits = [
   },
   {
     id: "4",
-    title: "Ask anything",
-    text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
+    title: "Expert Guidance",
+    text: "Receive expert advice and insights to navigate your software challenges.",
     backgroundUrl: "./src/assets/benefits/card-5.svg",
     iconUrl: benefitIcon1,
     imageUrl: benefitImage2,
   },
   {
     id: "5",
-    title: "Improve everyday",
-    text: "The app uses natural language processing to understand user queries and provide accurate and relevant responses.",
+    title: "Tailored Solutions",
+    text: "Benefit from software solutions that are customized to your business.",
     backgroundUrl: "./src/assets/benefits/card-6.svg",
     iconUrl: benefitIcon2,
     imageUrl: benefitImage2,
   },
 ];
 
+
 export const socials = [
   {
     id: "0",
     title: "Discord",
     iconUrl: discordBlack,
-    url: "#",
+    url: "https://discord.com/channels/@me/1250129313056030793",
   },
   {
     id: "1",
     title: "Twitter",
     iconUrl: twitter,
-    url: "#",
+    url: "https://x.com/BonwaMdluli",
   },
   {
     id: "2",
     title: "Instagram",
     iconUrl: instagram,
-    url: "#",
+    url: "https://www.instagram.com/mdlulibonwayinkosi/",
   },
   {
     id: "3",
@@ -323,6 +331,6 @@ export const socials = [
     id: "4",
     title: "Facebook",
     iconUrl: facebook,
-    url: "#",
+    url: "https://web.facebook.com/profile.php?id=61565218105317",
   },
 ];
